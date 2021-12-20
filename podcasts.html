@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+    <link rel="shortcut icon" href="images/logoLivro.png">
+	<title>Carlinha Bassan</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/cssPaginas.css">
+    <link rel="stylesheet" href="css/cssLogin.css">
+    <link rel="stylesheet" href="css/cssResponsive.css">
+</head>
+<body class="body2">
+    <header>
+        <div class="larguraH">
+            <a href="index.html">
+                <img id="logo" src="images/logo.png">
+            </a>
+            
+            <div id="menu">
+                <div class="linksMenu"><a href="podcasts.html"> Podcasts </a></div>
+                <div class="linksMenu"><a href="materialEstudo.html"> Material de Estudo </a></div>
+                <div class="linksMenu"><a href="cursos.html"> Cursos </a></div>
+            </div>
+
+            <div id="login">
+                <div class="Entrar">Entrar</div>
+                <div class="Cadastrar">Cadastre-se</div>
+            </div>
+
+            
+            <img id="btnMenuCel" src="images/menu.png">
+        </div>
+
+        <div id="menuCel" class="escondido">
+            <div class="flexLinksCel">
+                <div>
+                    <a class="linksMenuCel" href="index.html">Home</a>
+                    <a class="linksMenuCel" href="podcasts.html"><div class="colorirA">Podcasts</div></a>
+                    <a class="linksMenuCel" href="materialEstudo.html">Material de Estudo</a>
+                    <a class="linksMenuCel" href="cursos.html">Cursos</a>
+                </div>
+
+                <img id="imgFecharTela" src="images/xBranco.png">
+            </div>
+            <div class="logarCel">
+                <div class="EntrarCel">Entrar</div>
+                <div class="CadastrarCel">Cadastre-se</div>
+            </div>
+        </div>
+    </header>
+
+    <div class="bloqueio escondido"></div>
+
+    <form action="index.html" method="post">
+        <div id="telaLogin" class="escondido">
+            <div class="menuLogin">
+                <div class="entrarJanela">Entrar</div>
+                <div class="cadastrarJanela">Cadastre-se</div>
+                <img id="imgFecharLogin" src="images/x.png">
+            </div>
+
+            <div class="info">Email</div>
+            <input type="email" id="txtInfo" name="txtEmail" placeholder="carlinhabassan@gmail.com" required>
+
+            <div class=info>Senha</div>
+            <input type="password" id="txtInfo2" name="txtSenha" placeholder="******" required>
+
+            <div class="esqueceuSenha">Esqueceu a senha?</div>
+            
+            <input type="submit" value="Confirmar" id="btnLogar">
+            
+            <div id="linhaNaoTemConta">
+                <div class="naoTemConta">Não possui uma conta?<div class="pintarLink">Cadastre-se</div></div>
+            </div>
+        </div>
+    </form>
+    
+    <form method="post">
+        <div id="telaCadastro" class="escondido">
+            <div class="flexLogin">
+                <div class="cadastre-se">Cadastre-se</div>
+                <img id="imgFecharCadastro" src="images/x.png">
+            </div>
+            <div class="pintar">Rápido e fácil</div>
+            <div class="menuCadastro">
+                <div class="entrarJanelaC">Entrar</div>
+                <div class="cadastrarJanelaC">Cadastre-se</div>
+            </div> 
+
+                <div class="linhaEtapa1"></div> <div class="linhaEtapa2"></div> <div class="etapa">Etapa 1</div>
+
+            <div class="inputsCadastro">
+                <input type="text" class="infosCadastro" placeholder="Nome" required>
+                <input type="text" class="infosCadastro" placeholder="Sobrenome" required>
+                <input type="email" class="infosCadastro" placeholder="Email" required>
+                <input type="number" class="infosCadastro" placeholder="Telefone" required>
+                <input type="password" class="infosCadastro" placeholder="Senha" required>
+                <input type="password" class="infosCadastro" placeholder="Confirmar Senha" required>
+            </div>
+            <div class="pintarData">Data de Nascimento</div>
+
+            <input type="number" class="infosData" placeholder="Dia" required="required" min="1" max="31" required>
+            <input type="number" class="infosData" placeholder="Mês" required="required" min="1" max="12" required>
+            <input type="number" class="infosData" placeholder="Ano" required="required" min="1" max="2022" required>
+
+            <div class="pintarData">Gênero</div>
+            <div class="generos">Feminino
+                <input type="radio" class="espaçoInput" name="radio" value="op1" required>
+            </div>
+            <div class="generos">Masculino
+                <input type="radio" class="espaçoInput" name="radio" value="op2" required>
+            </div>
+            <div class="generos">Prefiro não dizer
+                <input type="radio" class="espaçoInput" name="radio" value="op3" required>
+            </div>
+            <div class="termos">
+                <input type="checkbox">Concordo com os <div class="pintarLink">termos de serviço</div>
+            </div>
+
+            <input type="submit" value="Próximo" id="btnProximo">
+        </div>
+    </form>
+
+    <form action="index.html" method="post">
+        <div id="telaCadastro2" class="escondido">
+            <div class="flexLogin">
+                <div class="cadastre-se">Ajude-nos respondendo essa pesquisa rápida</div>
+                <img id="imgFecharCadastro2" src="images/x.png">
+            </div>
+            <div class="pintar">*Não obrigatório</div>
+            <div class="menuCadastro">
+                <div class="entrarJanelaC2">Entrar</div>
+                <div class="cadastrarJanelaC">Cadastre-se</div>
+            </div> 
+
+            <div class="linhaCompleta"></div><div class="etapa">Etapa 2</div>
+
+            <div class="pintarTopico">Etnia</div>
+                <div class="inputsEtapa2menor">Branco
+                    <input type="radio" class="espaçoInput" name="etnia" value="op1" required> 
+                </div>
+                <div class="inputsEtapa2menor">Pardo
+                    <input type="radio" class="espaçoInput" name="etnia" value="op2" required>
+                </div>
+                <div class="inputsEtapa2maior">Afro-descendente
+                    <input type="radio" class="espaçoInput" name="etnia" value="op3" required>
+                </div>
+                <div class="inputsEtapa2menor">Outro
+                    <input type="radio" class="espaçoInput" name="etnia" value="op4" required>
+                </div>
+
+            <div class="pintarTopico">Sexualidade</div>
+            <div class="inputsEtapa2menor">Hétero
+                <input type="radio" class="espaçoInput" name="sexualidade" value="op1" required>
+            </div>
+            <div class="inputsEtapa2menor">LGBTQIA+
+                <input type="radio" class="espaçoInput" name="sexualidade" value="op2" required>
+            </div>
+            <div class="inputsEtapa2maior">Prefiro não dizer
+                <input type="radio" class="espaçoInput" name="sexualidade" value="op3" required>
+            </div>
+
+            <div class="pintarTopico">Escolaridade</div>
+
+            <select class="inputsEtapa2maior">
+                <option>Fundamental</option>
+                <option>Ensino Médio</option>
+                <option>Ensino Superior</option>
+            </select>
+
+            <div class="pintarTopico">Porque está visitando esse site?</div>
+
+            <select class="inputsEtapa2maior">
+                <option>Estudo</option>
+                <option>Conhecimento</option>
+                <option>Outro</option>
+            </select>
+
+            <div class="centralizar">
+                <input type="submit" value="Confirmar" id="btnConfirmar">
+                <a id="pular" href="index.html">Pular</a>
+            </div>
+        </div>
+    </form>
+ 
+    <div class="larguraDestaqueP">
+        <div class="destaque">
+            <img class="imgPod" src="images/Icones/Mic.png">
+                <p class="tituloP">Episódios</p>
+        </div>
+    </div>
+
+    <div class="principalpodcast">
+        <div class="podcast">
+            <img class="imgpodcast" src="images/episodios/Pod1.png">
+            <p class="tituloPod">Educação para a reconexão humana com a natureza</p>
+            <div class="dcPod">
+                <p class="descriçãoPod">Se a educação é para vida, a ecologia tem que estar no foco!
+                Nessa live teremos a presença da bióloga, educadora e ativista ambiental Silvia Castro.
+                Vamos aproveitar toda sua experiência, de mais de 20 anos na área, seja como diretora do Instituto EcoFaxina ou como professora.</p>
+            </div>
+            <div class="fotopod">
+                <a href="https://youtu.be/Dw0DP1DlnlM" target="_blank">
+                    <img id="imgpodS" src="images/Icones/youtube.png">
+                </a>
+                <a href="https://open.spotify.com/episode/5FpmEAmSSoJxxPWUsi5JNw?si=cNn2IAanT2iqZNMlMpcN5A" target="_blanck">
+                    <img id="imgpod" src="images/Icones/spotify.png">
+                </a>
+            </div>   
+        </div>
+
+        <div class="podcast">
+            <img class="imgpodcast" src="images/episodios/Pod2.png">
+            <p class="tituloPod">Amizade, sororidade e o tempo</p>
+            <div class="dcPod">
+                <p class="descriçãoPod">O Marcando a Taça traz à tona a amizade feminina e as transformações positivas que ela tem o poder de provocar.
+                Nesse retorno da live de sábado terei o prazer de receber as mais que amigas, friends, Josieni Pereira e Melissa Vicente para esse bate papo!</p>
+            </div>
+            <div class="fotopod">
+                <a href="https://youtu.be/cKq79I9jmWY" target="_blank">
+                    <img id="imgpodS" src="images/Icones/youtube.png">
+                </a>
+                <a href="https://open.spotify.com/show/7lvL3L36ykIWfW3IbI2dQl?si=9d923c2cb16a4efb" target="_blanck">
+                <img id="imgpod" src="images/Icones/spotify.png">
+                 </a>
+            </div>   
+        </div>
+
+        <div class="podcast">
+            <img class="imgpodcast" src="images/episodios/Pod3.png">
+            <p class="tituloPod">Afinal, para que serve o STF?</p>
+            <div class="dcPod">
+                <p class="descriçãoPod">Você sabe qual a função do STF em um regime democrático?
+                Nesta live batemos um papo sobre isso com o advogado Diego Costa.
+                Aproveitando, estendemos o assunto para a forte noção que temos de que o Brasil é um país onde leis não funcionam.</p>
+            </div>
+            <div class="fotopod">
+                <a href="https://youtu.be/YSObCLv8j4o" target="_blank">
+                    <img id="imgpodS" src="images/Icones/youtube.png">
+                </a>
+                <a href="https://open.spotify.com/show/7lvL3L36ykIWfW3IbI2dQl?si=9d923c2cb16a4efb" target="_blanck">
+                    <img id="imgpod" src="images/Icones/spotify.png">
+                </a>
+            </div> 
+        </div>
+
+        <div class="podcast">
+            <img class="imgpodcast" src="images/episodios/Pod4.png">
+            <p class="tituloPod">Parem de romantizar a mulher multitarefas</p>
+            <div class="dcPod">
+                <p class="descriçãoPod">Prontos para aquele papo feminino de categoria???!!!
+                Dessa vez o time de primeira contará com Marina Rajabally e Nathalia Aoão e o assunto é a necessária desconstrução da rotina multiatarefada que estressa e cansa ao extremo a mulherada.</p>
+            </div>
+            <div class="fotopod">
+                <a href="https://youtu.be/iKDz49X7GE8" target="_blank">
+                    <img id="imgpodS" src="images/Icones/youtube.png">
+                </a>
+                <a href="https://open.spotify.com/show/7lvL3L36ykIWfW3IbI2dQl?si=9d923c2cb16a4efb" target="_blanck">
+                    <img id="imgpod" src="images/Icones/spotify.png">
+                </a>
+            </div>  
+        </div>
+
+        <div class="podcast">     
+            <img class="imgpodcast" src="images/episodios/Pod5.png">
+            <p class="tituloPod">Caminhos para desestruturar o racismo</p>
+            <div class="dcPod">
+                <p class="descriçãoPod">Nesta live de sábado, vamos falar sobre a importância da representatividade social e cultural da comunidade negra.
+                Para esse bate-papo contarei com a presença do Dr. Renato Azevedo que, dentre outras coisas, é advogado e CEO da @producaopreta.oficial.</p>
+            </div>
+            <div class="fotopod">
+                <a href="https://youtu.be/hBUUVWUSc1o" target="_blank">
+                    <img id="imgpodS" src="images/Icones/youtube.png">
+                </a>
+                <a href="https://open.spotify.com/show/7lvL3L36ykIWfW3IbI2dQl?si=9d923c2cb16a4efb" target="_blanck">
+                    <img id="imgpod" src="images/Icones/spotify.png">
+                </a>
+            </div>  
+        </div>
+
+        <div class="podcast">
+            <img class="imgpodcast" src="images/episodios/Pod6.png">
+            <p class="tituloPod">Você trabalha ou só desenha?</p>
+            <div class="dcPod">
+                <p class="descriçãoPod">Na live de hoje o bate papo vai ser sobre os desafios para quem faz arte no Brasil. 
+                O ilustrador Dan Martins vem falar sobre os desafios para se profissionalizar na área, a importância de estudar sobre e quais caminhos para começar a ganhar uma graninha.</p>
+            </div>
+            <div class="fotopod">
+                <a href="https://youtu.be/J50es3rEqr0" target="_blank">
+                    <img id="imgpodS" src="images/Icones/youtube.png">
+                </a>
+                <a href="https://open.spotify.com/show/7lvL3L36ykIWfW3IbI2dQl?si=9d923c2cb16a4efb" target="_blanck">
+                    <img id="imgpod" src="images/Icones/spotify.png">
+                </a>
+            </div>   
+        </div>
+
+    </div>
+
+    <div id="seta"><img id="imgseta" src="images/Icones/Seta.png"></div>
+
+    <footer>
+        <div class="larguraF">
+            <a href="https://www.youtube.com/c/CarlinhaBassan" target="_blank">
+            <img id="logoSocial" src="images/Icones/youtube.png">
+            </a>
+
+            <a href="https://www.instagram.com/carlinhabassan07/" target="_blank">
+            <img id="logoSocial" src="images/Icones/instagram.png">
+            </a>
+
+            <a href="https://open.spotify.com/show/7lvL3L36ykIWfW3IbI2dQl" target="_blank">
+            <img id="logoSocial" src="images/Icones/spotify.png">
+            </a>
+
+            <a href="https://www.facebook.com/carlinhabassan">
+            <img id="logoSocial" src="images/Icones/facebook.png" target="_blank">
+            </a>
+
+            <a href="https://twitter.com/carlinhabassan" target="_blank">
+            <img id="logoSocial" src="images/Icones/twitter.png">
+            </a>
+            <p> Contato: carlabassan@gmail.com </p>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="js/javacarla.js"></script>
+
+</body>
+</html>

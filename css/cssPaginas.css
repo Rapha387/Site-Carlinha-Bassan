@@ -1,0 +1,625 @@
+body 
+{
+    margin:0;
+    padding:0; 
+    font-family: 'Poppins', sans-serif; 
+    font-size: 16px;
+    background-image: url(../images/center.png);
+    background-position: center;
+}
+
+.body2
+{
+    margin:0;
+    padding:0; 
+    font-family: 'Poppins', sans-serif; 
+    font-size: 16px;
+    background-image: url(../images/center2.png);
+    background-position: center;
+}
+
+/*-----------HOME------------*/
+
+.larguraConteudo
+{
+    width: 940px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.larguraDestaque
+{
+    background-image: url(../images/top.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+}
+
+.destaque
+{
+    text-align: center;
+    margin-bottom: 100px;
+    width: 940px;
+    margin: auto;
+    color: #fff;
+}
+
+.titulo 
+{
+    font-size: 40px;
+    margin: 0px 0px 30px 0px;
+    font-family: Roboto;
+    padding-top: 35px;
+}
+
+.podcast 
+{ 
+    width: 940px; 
+    margin:auto; 
+    text-align: center;
+}
+
+.imgPodcast
+{ 
+    width: 940px; 
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.imgPodcastCel
+{
+    display: none;
+    width: 316px; 
+    height: 316px; 
+    border-radius: 10px;
+}
+
+.conteudo 
+{ 
+    width: 940px; 
+    border: thin solid #c7c7c7;
+    border-radius: 10px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.flexPE 
+{ 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-around; 
+}
+
+.podcasts 
+{ 
+    width: 400px; 
+}
+
+.episodios 
+{  
+    width: 400px; 
+}
+
+.tituloPodcast 
+{ 
+    text-align: center; 
+    color:#CC284B; 
+    font-family: Roboto; 
+    font-size: 18px; 
+    margin-top: 30px; 
+}
+.txtPodcast 
+{ 
+    text-align: center; 
+    font-size: 16px; 
+    margin: 20px 30px 20px 30px; 
+    border-right: thin solid #dadada;
+    padding-right: 80px;
+    width: 324px;
+}
+.txtEpisodio
+{
+    text-align: center; 
+    font-size: 16px; 
+    margin: 20px 30px 20px 30px; 
+}
+
+.saibaMais
+{
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    border: solid thin #CC284B; 
+    border-radius: 16px;
+    padding: 5px 15px;
+    background-color: #CC284B;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.saibaMaisMaterial
+{
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    border: solid thin #CC284B; 
+    border-radius: 16px;
+    padding: 5px 15px;
+    background-color: #CC284B;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.saibaMaisLink {color: #fff; text-decoration: none; transition: 0.2s; }
+.saibaMaisLink:hover{color:#fff}
+
+.materialDeEstudo 
+{ 
+    width: 940px; 
+    border: thin solid #dadada; 
+    border-radius: 10px; 
+    margin: auto; 
+    text-align: center; 
+    margin-top: 100px;
+    background-color: #fff; 
+}
+
+.flexMaterial 
+{
+     display: flex; 
+     flex-direction: row; 
+     justify-content: space-around;
+}
+
+.txtConteudo { width: 475px; }
+
+.tituloMaterial 
+{ 
+    text-align: left; 
+    color:#CC284B; 
+    font-family: Roboto; 
+    font-size: 14px; 
+    margin: 20px 30px 20px 30px; 
+}
+.txtDestaques 
+{ 
+    text-align: left; 
+    font-family: Roboto; 
+    font-size: 30px; 
+    margin: 0px 30px 
+}
+.txtDestaques1 
+{ 
+    text-align: left; 
+    color:#CC284B; 
+    font-family: Roboto; 
+    font-size: 30px;
+    margin: 0px 30px 
+}
+.txtMaterial 
+{ 
+    text-align: left; 
+    font-size: 16px;
+    margin: 20px 30px 20px 30px; 
+}
+
+.imgMaterial 
+{ 
+    width: 500px;
+    border-radius: 5px;
+    margin: 40px 30px;
+    height: 275px;
+}
+
+.carlinha 
+{ 
+    width: 940px; 
+    border: thin solid #dadada; 
+    border-radius: 10px; 
+    margin: auto; 
+    margin-top: 100px;
+    background-color: #fff; 
+}
+
+.nomeCarla
+{
+    text-align: left;
+    color: #CC284B;
+    font-size: 30px;
+    font-family: roboto;
+    margin: 30px 30px 30px 25px;
+    width: 332px;
+}
+
+.flexCarlinha
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    height: 875px;
+}
+
+.colunaEsquerda { margin: 0px 10px 0px 25px; }
+.colunaDireita { margin-right: 30px; }
+
+
+.imgCarlaEscondida
+{
+    display: none;
+    width: 325px;
+    height: 315px;
+    margin: 33px 0px 0px 25px;
+}
+
+.imgCarla
+{
+    width: 435px;
+    margin: 33px 0px 0px 25px;
+}
+
+.sobreMim
+{
+    width: 360px;
+    border: thin solid #dadada;
+    border-radius: 10px;
+    text-align: left;
+    padding: 5px 15px;
+}
+
+.objetivo
+{
+    width: 360px;
+    border: thin solid #dadada;
+    border-radius: 10px;
+    text-align: left;
+    padding: 5px 15px;
+    margin-top: 30px;
+    height: 331px;
+}
+
+.paraQuem
+{
+    width: 360px;
+    border: thin solid #dadada;
+    border-radius: 10px;
+    text-align: left;
+    padding: 5px 15px;
+    margin-top: 18px;
+    margin-left: 35px;
+}
+
+.numeros
+{
+    color: #a0a0a0;
+    text-align: left;
+    font-size: 14px;
+}
+
+.txtTitulos 
+{
+    color: #CC284B;
+    text-align: left;
+    font-size: 20px;
+}
+
+.txtCarlinha
+{
+    text-align: left;
+    font-size: 16px;
+}
+
+/*-----------PODCASTS------------*/
+
+.destaqueP
+{
+    text-align: center;
+    margin-bottom: 100px;
+    margin: auto;
+    color: #fff;
+}
+
+.imgPod
+{
+    width: 55px;
+    margin-top: 35px;
+}
+
+.larguraDestaqueP
+{
+    background-image: url(../images/top2.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 100%;
+}
+
+.tituloP
+{
+    font-size: 40px;
+    margin: 0px 0px 30px 0px;
+    font-family: Roboto;
+}
+.principalpodcast
+{
+    margin: auto;
+    width: 940px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.podcast
+{
+    background-color: #fff;
+    width: 273px; 
+    border: thin solid #dadada; 
+    border-radius: 10px; 
+    height: 619px;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 110px;
+}
+
+.imgpodcast
+{
+   width: 235px; 
+    border: thin solid #a0a0a0; 
+    border-radius: 10px; 
+    margin-top: 8px;
+}
+
+.tituloPod
+{
+    text-align: center;
+    color: #CC284B;
+    font-family: Roboto;
+    font-size: 18px;
+}
+
+.dcPod 
+{ 
+    width: 235px; 
+    height: 191px; 
+    text-align: center;
+    font-size: 14px; 
+}
+
+.descriçãoPod
+{
+    margin-top: 0;
+    font-weight:400;
+}
+
+.fotopod
+{
+    border-top: thin solid #CC284B;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+#imgpodS
+{
+    width: 30px;
+    margin-right: 5px;
+    margin-top: 15px;
+}
+
+#imgpod
+{
+    width: 30px;
+    margin-top: 15px;
+}
+
+#seta
+{
+    margin: auto;
+    text-align: center;
+}
+
+#imgseta
+{
+    width: 55px;
+    cursor: pointer;
+}
+
+/*---------MATERIAL DE ESTUDO----------*/
+
+.larguraDestaqueM
+{
+    background-image: url(../images/top2.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 100%;
+}
+
+.imgMat
+{
+    width: 55px;
+    margin-top: 35px;
+}
+
+.tituloM
+{
+    font-size: 40px;
+    margin: 0px 0px 30px 0px;
+    font-family: Roboto;
+}
+
+
+#PrincipalMaterial
+{
+    width: 940px;
+    margin: auto;
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+}
+
+.Arquivos
+{
+    background-color: #fff;
+    width: 940px;
+    height: 290px;
+    border: thin solid #dadada;
+    border-radius: 15px;
+    padding: 25px;
+    box-sizing: border-box;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.ImagemArquivos
+{
+    width: 275px;
+    height: 180px;
+    border: thin solid #dadada;
+    border-radius: 10px;
+}
+
+.ConteudoArquivos
+{
+    width: 507px;
+    margin-left: 25px;
+}
+
+.LarguraTitulos
+{
+    width: 585px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.TituloArquivos
+{
+    width: 345px;
+    color: #cc284b;
+    border-bottom: thin solid #cc284b;
+    padding-bottom: 15px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    font-family: roboto;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.TituloHist
+{
+    color: #7c7c7c;
+    font-size: 18px;
+    font-family: 'Roboto';
+}
+
+.dcM
+{
+    border-bottom: thin solid #cc284b;
+    height: 130px;
+    width: 585px;
+    padding-bottom: 10px;
+}
+
+.FinalArquivos
+{
+    margin-top: 5px;
+    display: flex;
+    padding-top: 15px;
+    box-sizing: border-box;
+    justify-content: flex-end;
+    width: 585px;
+}
+
+.FinalDrive
+{
+    width: 24px;
+    height: 22px;
+    margin-top: 2px;
+}
+
+#youtu
+{
+    width:25px;
+    padding-left: 10px;
+}
+
+
+/*---------CURSO----------*/
+
+.curso 
+{ 
+    min-height: 400px;
+    margin: auto; 
+    text-align: center;
+    width: 940px; 
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+.destaqueCurso 
+{ 
+    font-size: 40px; 
+    color: #CC284B; 
+    border-bottom: thin solid #CC284B; 
+    font-family: 'Roboto', sans-serif; 
+    width: 470px;
+    padding-bottom: 20px;
+    margin: auto; 
+}
+
+.txtCurso 
+{ 
+    font-size: 16px;
+    width: 535px;
+    margin: auto;
+    padding-top: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.decoraCurso { text-transform: none; color: #CC284B; }
+
+/*---FOOTER---*/
+
+.backgroundF
+{
+    background-image: url(../images/bottom.png);
+    background-position: bottom center;
+}
+
+footer 
+{
+    display:flex;
+     color:#fff; 
+     width: 100%; 
+     font-family: 'Roboto', sans-serif; 
+     font-size: 16px; 
+     height: 123px; 
+     background-color: #2c2c2c; 
+     margin-top: 100px;
+
+}
+
+.larguraF
+{
+    width: 270px;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap
+}
+
+#logoSocial
+{
+    width: 30px;
+}
+

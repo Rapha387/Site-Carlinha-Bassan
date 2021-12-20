@@ -1,0 +1,418 @@
+﻿body{margin:0; padding:0; font-family: 'Poppins', sans-serif; font-size: 16px;}
+
+.pintar{color:#CC284B; margin-left: 4px;}
+
+.escondido {display: none;}
+.bloqueio{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    opacity: 0.80;
+}
+
+/*------------HEADER-----------*/
+
+header{
+    color:#fff;
+    width: 100%;
+    font-family: 'Roboto', sans-serif; font-size: 16px;
+    display: flex;
+    height: 123px;
+    background-color: #2c2c2c;
+}
+
+.larguraH{
+    width: 940px;
+    margin:auto; 
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#logo {width: 116px;}
+.linksMenu{display: inline-block; margin-left: 25px;}
+.Entrar{cursor:pointer; display: inline-block; margin-left: 25px;}
+a {color: #fff; text-decoration: none; transition: 0.2s; }
+a:hover{color:#ff3962}
+.Cadastrar{
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 25px;
+    border: solid thin #fff; 
+    border-radius: 16px; 
+    padding:5px 15px;
+}
+
+.colorirA{
+    color:#fff;
+    border-left: solid 2px #ff3962;
+    padding-left: 3px;
+}
+
+#btnMenuCel{
+    width: 35px;
+    display: none;
+}
+
+#menuCel{
+    font-family:'Roboto', sans-serif;
+    position:absolute;
+    top:0;
+    right: 0;
+    width: 175px;
+    height: 242px;
+    background-color: #313131;
+    padding:8px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.flexLinksCel{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+#imgFecharTela{
+    cursor: pointer;
+    height: 13px;
+    width: 13px;
+    margin-top:20px;
+}
+
+#imgFecharLogin{
+    cursor: pointer;
+    height: 13px;
+    width: 13px;
+    margin-left: 95px;
+}
+
+#imgFecharCadastro{
+    cursor: pointer;
+    height: 13px;
+    width: 13px;
+}
+
+#imgFecharCadastro2{
+    cursor: pointer;
+    height: 13px;
+    width: 13px;
+}
+
+.linksMenuCel{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color:#fff; 
+    display: block;
+    margin:20px 0;
+}
+
+.logarCel{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: solid thin #ff3962;
+    padding: 20px 0;
+}
+
+.EntrarCel{
+    font-size: 15px;
+    color:#fff; 
+    cursor:pointer; 
+    display: inline-block;
+}
+
+.CadastrarCel{
+    font-size: 15px;
+    color:#fff; 
+    cursor: pointer;
+    display: inline-block;
+    border: solid thin #fff; 
+    border-radius: 16px; 
+    padding: 1px 6px;
+    box-sizing: border-box;
+}
+
+/*-----------LOGIN-----------*/
+
+#telaLogin{
+    font-family: 'Roboto', sans-serif;
+    padding: 28px;
+    box-sizing: border-box;
+    width:343px;
+    height: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -187px;
+    margin-top: -190px;
+    background-color: #fff;
+    box-shadow: 0px 1px 6px 5px #babaca;
+    border-radius: 18px;
+}
+
+.menuLogin{border-bottom: solid #babaca 2px;}
+
+.flexLogin{
+    align-items: baseline;
+    display: flex;
+    justify-content: space-between;
+}
+
+.entrarJanela,.cadastrarJanelaC{
+    cursor:pointer; 
+    color: #CC284B; 
+    display: inline-block; 
+    margin: 0px 16px 5px 4px;
+}
+.cadastrarJanela,.entrarJanelaC,.entrarJanelaC2{
+    cursor:pointer;
+    color: #8A7373;
+    display: inline-block; 
+    margin: 0px 16px 5px 4px;
+}
+
+.info{margin: 24px 0 5px 4px; color: #CC284B;}
+
+
+#txtInfo{
+    padding: 7px;
+    width: 287px; 
+    height: 37px; 
+    border: 2px solid #A0a0a0;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+
+#txtInfo2{
+    padding: 7px;
+    width: 287px; 
+    height: 37px; 
+    border: 2px solid #A0a0a0;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+
+#txtInfo:focus{ 
+    outline: none !important;
+    border-color: #CC284B;
+}
+
+#txtInfo2:focus{ 
+    outline: none !important;
+    border-color: #CC284B;
+}
+
+.esqueceuSenha{
+    cursor:pointer;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 14px; 
+    color:#CC284B; 
+    margin: 24px 0 24px 0px;
+}
+
+#btnConfirmar, #btnProximo{
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+    display: flex;
+    background-color: #CC284B;
+    width: 189px;
+    height: 45px;
+    border: none;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 22px;
+    margin-top: 30px;
+}
+
+#btnLogar{
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+    display: flex;
+    background-color: #CC284B;
+    width: 189px;
+    height: 45px;
+    border: none;
+    margin:auto;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 22px;
+    margin-top: 30px;
+}
+
+#linhaNaoTemConta{border-top: solid #babaca 2px; padding-top:24px;}
+.pintarLink{margin-left:2px; color:#CC284B; cursor:pointer; display: inline-block;}
+.naoTemConta{display:flex;justify-content: center;}
+
+/*-----------CADASTRO------------*/
+
+#telaCadastro{
+    font-family: 'Roboto', sans-serif;
+    padding: 28px;
+    box-sizing: border-box;
+    width:618px;
+    height: 711px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -309px;
+    margin-top: -190px;
+    background-color: #fff;
+    box-shadow: 0px 1px 6px 5px #babaca;
+    border-radius: 18px;
+}
+
+.menuCadastro{border-bottom: solid #babaca 2px; margin-top: 24px;}
+.cadastre-se{font-size: 24px; margin-bottom: 15px;}
+
+.linhaEtapa1{
+    display:inline-block;
+    margin-top: 24px;
+    background-color: #CC284B;
+    width: 260px;
+    border: 2px solid #CC284B;
+    border-radius: 31px;
+}
+
+.linhaEtapa2{
+    display:inline-block;
+    margin-top: 24px;
+    background-color: #e2e2e2;
+    width: 260px;
+    border: 2px solid #e2e2e2;
+    border-radius: 31px;
+    margin-left: -33px;
+
+}
+
+.etapa {color:#CC284B; margin-left: 5px; display: inline-block}
+
+.infosCadastro{
+    width:261px;
+    height: 37px;
+    box-sizing: border-box;
+    border: 2px solid #A0a0a0;
+    border-radius: 15px;
+    margin-top:24px;
+    padding: 7px;
+}
+
+.infosCadastro:focus{ 
+    outline: none !important;
+    border-color: #CC284B;
+}
+
+.inputsCadastro{display: flex; flex-wrap: wrap; justify-content: space-between;}
+
+.pintarData {color:#CC284B; margin-top:24px;}
+
+.infosData{
+    margin-right:40px;
+    width:139px;
+    height: 37px;
+    box-sizing: border-box;
+    border: 2px solid #A0a0a0;
+    border-radius: 15px;
+    margin-top:24px;
+    padding: 7px;
+}
+
+.infosData:focus{ 
+    outline: none !important;
+    border-color: #CC284B;
+}
+
+.generos{
+    color:#757575;
+    font-size:14px;
+    width: 162px;
+    height: 37px;
+    display: inline-block;
+    margin-right: 22px;
+    box-sizing: border-box;
+    border: 2px solid #A0a0a0;
+    border-radius: 15px;
+    padding: 7px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.espaçoInput{
+    float: right;
+}
+
+/*===============ETAPA2================*/
+
+
+#telaCadastro2{
+    font-family: 'Roboto', sans-serif;
+    padding: 28px;
+    box-sizing: border-box;
+    width:618px;
+    height: 692px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -309px;
+    margin-top: -190px;
+    background-color: #fff;
+    box-shadow: 0px 1px 6px 5px #babaca;
+    border-radius: 18px;
+}
+
+.linhaCompleta{
+    display:inline-block;
+    margin-top: 24px;
+    background-color: #CC284B;
+    width: 499px;
+    border: 2px solid #CC284B;
+    border-radius: 31px;
+}
+.pintarTopico{color:#CC284B; margin-top:24px; margin-bottom:24px;}
+
+.centralizar{
+    display: flex;
+    align-items: center;
+    justify-content:flex-start
+}
+
+.inputsEtapa2maior{
+    color:#757575;
+    font-size:14px;
+    width: 182px;
+    height: 37px;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 2px solid #A0a0a0;
+    border-radius: 15px;
+    padding: 7px;
+    margin-right: 10px;
+}
+
+select:focus{
+    outline: none !important;
+    border-color: #CC284B;
+}
+
+.inputsEtapa2menor{
+    color:#757575;
+    font-size:14px;
+    width: 108px;
+    height: 37px;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 2px solid #A0a0a0;
+    border-radius: 15px;
+    padding: 7px;
+    margin-right: 10px;
+}
+
+#pular{color: #CC284B; margin-left: 15px; margin-top: 15px; }
