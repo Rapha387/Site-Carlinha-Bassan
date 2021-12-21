@@ -1,7 +1,130 @@
 
 /*===============VERTICAL==================*/
 
-@media screen and (max-width: 500px)
+@media screen and (max-width: 340px)
+{
+    /*====HEADER====*/
+
+    #menu, #login{display:none;}
+    #logo{width: 100px;}
+    .larguraH{width: 85%;}
+    #btnMenuCel{display: block;}
+
+
+    /*====LOGIN=====*/
+
+    #telaLogin{left:58%; width: 316px; font-size: 15px;}
+    #imgFecharLogin{margin-left: 78px;}
+    #txtInfo,#txtInfo2{width: 261px;}
+
+    #telaCadastro{width: 316px; left: 92%; height: 1150px; font-size: 15px; padding: 24px;}
+    .linhaEtapa1{width: 99px;}
+    .linhaEtapa2{width: 96px; margin-left: -6px;}
+    .generos{margin-bottom: 0px; display: block;}
+    .termos{margin-top:24px}
+    input{margin:0; margin-right: 1px;}
+
+    #telaCadastro2{width: 316px; left: 92%; height: 857px; font-size: 15px; padding:24px}
+    .linhaCompleta{width: 200px;}
+    .inputsEtapa2menor{margin-bottom: 10px; margin-right: 0;}
+    .inputsEtapa2maior{margin-right: 0; width: 156px;}
+
+
+    /*====INDEX====*/
+
+    body{font-size: 14px; background-image: url(../images/centerRP.png); background-position: center; }
+    .titulo { margin: 0px 0px 20px 0px; padding-top: 35px; font-size: 32px;}
+    .larguraDestaque{width: 100%; background-image: url(../images/topRP.png); background-position: top center; }
+    .destaque,.larguraConteudo,.conteudo,.podcast{width: 85%;}
+    .conteudo,.materialDeEstudo,.carlinha{width:100%}
+    .img{width: 85%; height: 200px;}
+    .imgPodcast{display: none;}
+    .imgPodcastCel{display:block; width: 100%; height: 100%; border-radius: 10px;}
+    .txtCarlinha{font-size: 14px;}
+    .txtEpisodio{margin:0; font-size:14px}
+    .txtMaterial{margin: 15px 0px 0px 0px; font-size: 14px;}
+    .txtPodcast{margin:0; width: 212px; margin: auto; padding-right: 0px; border:none; font-size: 14px;}
+    .txtDestaques,.txtDestaques1{margin:0; font-size:25px}
+    .tituloPodcast{margin: 25px 0}
+    .saibaMais{margin: 25px 0px; font-size: 14px;}
+    .saibaMaisMaterial{margin-top:0px; margin-bottom: 25px; font-size: 14px;}
+    .flexPE,.flexMaterial{flex-direction: column; align-items: center;}
+    .podcasts,.episodios,.txtConteudo{width: 90%;}
+    .imgMaterial{width: 90%; margin: 25px 0px; height: 135px;}
+    .tituloMaterial{margin:25px 0; font-size:16px}
+    .nomeCarla{width: 95%; margin:25px 0; text-align: center;}
+    .imgCarlaEscondida{display:block; width: 90%; height: 260px; margin:0; margin: auto}
+    .flexCarlinha{width: 100%; height: 100%; align-items: center; margin:auto}
+    .imgCarla{display: none;}
+    .sobreMim{box-sizing: border-box; width: 90%; margin:auto; margin-top:25px}
+    .paraQuem{box-sizing: border-box; width: 90%; margin: 25px auto}
+    .objetivo{box-sizing: border-box; width: 90%; margin:auto; margin-top:25px; height: 390px}
+    .colunaEsquerda,.colunaDireita{margin:0; width: 100%;}
+
+
+    /*====PODCASTS====*/
+
+    .body2 
+    { 
+        background-image: url(../images/centerRP2.png); 
+        background-position: center;
+    }
+    .tituloP { font-size: 35px; }
+    .larguraDestaqueP 
+    { 
+        background-image: url(../images/topRP2.png); 
+        background-position: top center;
+        height: 320px;
+    }
+    .principalpodcast 
+    { 
+        display: flex; 
+        justify-content: space-between;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 100%;
+    }
+    .podcast { height: 745px; width: 90%; }
+    .tituloPod { font-size: 18px; }
+    .dcPod { height: 312px; font-size: 16px; }
+    .imgpodcast{width: 100%;}
+    .descriçãoPod{width: 90%;margin: auto;}
+
+    /*====MATERIAL DE ESTUDOS====*/
+
+    #bodyM
+    {
+        background-image: url(../images/centerRP3.png); 
+        background-position: center; 
+    }
+    .tituloM{ font-size: 35px; }
+    .Arquivos{ width: 100%; height: 100%; flex-direction: column; align-items: center; border: thin solid #898989; }
+    .ImagemArquivos{ width: 100%; }
+    .ConteudoArquivos { width: 90%; margin: 0px; margin-top: 25px; }
+    .LarguraTitulos { width: 100%; flex-direction: column; }
+    .TituloArquivos { width: 90%; margin-bottom: 0px; border: none; }
+    .descrição{margin:auto; width: 90%;}
+    .FinalArquivos{ margin-top: 10px; width: 90%; }
+    #PrincipalMaterial { width: 90%; }
+    .TituloHist { text-align: left; border-bottom: thin solid #cc284b; margin-bottom: 15px; padding-bottom: 15px; }
+    .dcM { height: 100%; width: 100%; }
+
+
+    /*====CURSOS====*/
+    
+    .curso { width: 100%; }
+    .destaqueCurso { width: 90%; margin-top: 180px; }
+    .txtCurso { width: 90%; }
+
+
+    /*====FOOTER====*/
+
+    #logoSocial{width:30px}
+}
+
+
+
+@media screen and (min-width:341px) and (max-width: 500px) 
 {
     /*====HEADER====*/
 
@@ -108,7 +231,7 @@
 
     /*====CURSOS====*/
     
-    .curso { width: 360px; }
+    .curso { width: 100%; }
     .destaqueCurso { width: 280px; margin-top: 180px; }
     .txtCurso { width: 285px; }
 
