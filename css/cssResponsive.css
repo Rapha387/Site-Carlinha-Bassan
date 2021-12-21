@@ -13,11 +13,12 @@
 
     /*====LOGIN=====*/
 
-    #telaLogin{left:58%; width: 316px; font-size: 15px;}
-    #imgFecharLogin{margin-left: 78px;}
-    #txtInfo,#txtInfo2{width: 261px;}
+    #telaLogin{left:64%; width: 90%; font-size: 15px; padding:20px}
+    #imgFecharLogin{margin-left: 53px;}
+    #txtInfo,#txtInfo2{width: 100%}
+    .menuLogin{width: 100%;}
 
-    #telaCadastro{width: 316px; left: 92%; height: 1150px; font-size: 15px; padding: 24px;}
+    #telaCadastro{width: 90%; left: 101%; height: 1150px; font-size: 15px; padding: 24px;}
     .linhaEtapa1{width: 99px;}
     .linhaEtapa2{width: 96px; margin-left: -6px;}
     .generos{margin-bottom: 0px; display: block;}
